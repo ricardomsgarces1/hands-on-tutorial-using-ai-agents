@@ -51,6 +51,8 @@ export SPOTIPY_REDIRECT_URI="your_spotify_redirect_uri"
 export WEATHER_API_KEY="your_weather_api_key"
 ```
 ## Running the scripts
+### Spotify OpenAPI Agent Script
+This script integrates with the Spotify API using an OpenAPI agent. 
 To use the Amadeus OpenAPI Agent Script, execute the following command:
 
 ```
@@ -61,7 +63,7 @@ To use the Spotify OpenAPI Agent Script, execute the following command:
 ```
 py spotify_agent.py
 ```
-To use the Weather OpenAPI Agent Script
+To use the Weather OpenAPI Agent Script, execute the following command:
 ```
 py weather_agent.py
 ```
