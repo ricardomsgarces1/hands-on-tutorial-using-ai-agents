@@ -11,11 +11,13 @@ Before using this project, ensure that you have the following Python packages in
 
 You can install these packages using pip:
 
-```bash
+```
+bash
 pip install pyyaml
 pip install requests
 pip install langchain_community
 pip install langchain_openai
+```
 
 ## Environment Variables
 
