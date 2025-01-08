@@ -51,18 +51,22 @@ export SPOTIPY_REDIRECT_URI="your_spotify_redirect_uri"
 export WEATHER_API_KEY="your_weather_api_key"
 ```
 ## Running the scripts
-### Spotify OpenAPI Agent Script
-This script integrates with the Spotify API using an OpenAPI agent. 
+### Amadeus OpenAPI Agent Script
+This script integrates with the Amadeus API using an OpenAPI agent and is able to determine flight routes between different locations.
 To use the Amadeus OpenAPI Agent Script, execute the following command:
 
 ```
 py flight_agent.py
 ```
+### Spotify OpenAPI Agent Script
+This script integrates with the Spotify API using an OpenAPI agent and is able to create paylists, select musics, etc. 
 To use the Spotify OpenAPI Agent Script, execute the following command:
 
 ```
 py spotify_agent.py
 ```
+### Weather OpenAPI Agent Script
+This script integrates with Visual Crossing Weather API using an OpenAPI agent and is able to provide weather forecasts.
 To use the Weather OpenAPI Agent Script, execute the following command:
 ```
 py weather_agent.py
