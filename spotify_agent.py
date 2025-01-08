@@ -87,6 +87,6 @@ spotify_agent = planner.create_openapi_agent(
 # print(response)
 
 # Define and invoke a user query: Request 2
-user_query = "make me a playlist with the first song from kind of blue. call it machine blues 2."
+user_query = "make me a playlist with the first song from kind of blue. call it machine blues."
 response = spotify_agent.invoke(user_query)
 print(response)
