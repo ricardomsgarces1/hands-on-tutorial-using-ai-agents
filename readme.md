@@ -20,6 +20,7 @@ pip install langchain_openai
 ```
 
 ## Environment Variables
+To authenticate and access necessary APIs, set the following environment variables. Replace the placeholder values with your actual credentials. Keep in mind that you only need to configure the variables used in the scripts that you will be executing.
 
 ### Amadeus API
 ```
@@ -42,6 +43,8 @@ export SPOTIPY_REDIRECT_URI="your_spotify_redirect_uri"
 export WEATHER_API_KEY="your_weather_api_key"
 ```
 ## Running the scripts
+to use the Amadeus OpenAPI Agent Script, execute the following command:
+
 ```
 py flight_agent.py
 ```
