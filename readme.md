@@ -14,6 +14,7 @@ Before using this project, ensure that you have the following Python packages in
 - Requests
 - LangChain Community
 - LangChain OpenAI
+- Spotipy! (Only required for the agent that interacts with Spotify)
 
 You can install these packages using pip:
 
@@ -23,6 +24,7 @@ pip install pyyaml
 pip install requests
 pip install langchain_community
 pip install langchain_openai
+pip install spotipy
 ```
 
 ## Environment Variables
@@ -53,4 +55,9 @@ to use the Amadeus OpenAPI Agent Script, execute the following command:
 
 ```
 py flight_agent.py
+```
+to use the Spotify OpenAPI Agent Script, execute the following command:
+
+```
+py spotify_agent.py
 ```
