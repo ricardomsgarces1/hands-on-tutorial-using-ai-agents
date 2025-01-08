@@ -1,4 +1,10 @@
-# Project Setup Instructions
+# Using AI Agents to abstract Complex APIs
+Leveraging LangChain’s OpenAPI Toolkit enables us to build AI agents that can abstract the complexities of interacting with large APIs. By separating high-level planning from low-level execution, agents can navigate extensive API specifications more efficiently, minimizing token usage and improving the coherence of long interaction sequences.
+
+In this <a href="https://nextingenai.com/hands-on-tutorial-using-ai-agents-to-abstract-complex-apis/">hands-on tutorial</a>, I’ll demonstrate how to create a hierarchical planning agent that leverages LangChain's OpenAPI Toolkit to simplify API interactions and streamline complex workflows.
+
+In this repository, you can find several examples of AI Agents that leverage LangChain’s OpenAPI Toolkit.
+
 
 ## Prerequisites
 
