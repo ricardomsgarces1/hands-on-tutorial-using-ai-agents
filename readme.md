@@ -14,7 +14,7 @@ Before using this project, ensure that you have the following Python packages in
 - Requests
 - LangChain Community
 - LangChain OpenAI
-- Spotipy! (Only required for the agent that interacts with Spotify)
+- Spotipy! (Only required for the agent that interacts with Spotify) 
 
 You can install these packages using pip:
 
